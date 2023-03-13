@@ -4,7 +4,304 @@
     <link rel="shortcut icon" type="image/png" href="https://raw.githubusercontent.com/UnwieldyRestaurant/unwieldyrestaurant.github.io/main/download.png"/>
 </head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages. Yesterday</p>
+<!--Header credit: https://codepen.io/ibaslogic/pen/dyeZeGL?editors=0100
+
+Multi page experience credit: large language model-->
+
+<style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#orness{
+    position: fixed;
+    left:0px
+    top:0px;
+    height:59px;
+    background-color: white;
+    width:50000px;
+    z-index:-1;
+    box-shadow: -32px 9px 16px -15px #111
+}
+
+body {
+  font-family: sans-serif;
+}
+
+header {
+  position: fixed;
+  background-color:white;
+}
+
+.header-content {
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  color: #212529;
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 25px;
+  color: inherit;
+  margin-right: 20px;
+}
+
+label {
+  padding: 23px 20px;
+  position: absolute;
+  cursor: pointer;
+  right: 0;
+  top: 0;
+}
+
+input[type="checkbox"] {
+  opacity: 0;
+  position: absolute;
+  right: 0;
+}
+
+label span {
+  width: 20px;
+  height: 3px;
+  display: block;
+  background: #4f3e3e;
+  position: relative;
+}
+
+label span::after, label span::before {
+  content: "";
+  position: absolute;
+  display: block;
+  background: inherit;
+  width: inherit;
+  height: inherit;
+} 
+
+label span::before{
+  top: 8px;
+}
+
+label span::after {
+  bottom: 8px;
+} 
+
+label::before {
+  position: absolute;
+  content: "";
+  width: 58px;
+  height: 49px; 
+  top: 0;
+  right: 0;
+}
+
+input[type="checkbox"]:focus + label::before {
+  box-shadow: 0 0 20px black;
+}
+
+ul {
+  background: #f2f2f2;
+}
+
+ul li {
+   list-style: none;
+   font-size: 18px;
+}
+
+ul li button {
+    font-size: inherit;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    width: 100%;
+}
+
+ul li a {
+   display: block;
+   color: inherit;
+   text-decoration: none;
+}
+
+ul li a, ul li button {
+  padding: 0.7rem 1rem;
+  text-align: left;
+}
+
+.menus {
+  position: absolute;
+  top: 3.2rem;
+  left: 0;
+  right: 0;
+  
+  /*  hide dropdown on small screens  */
+  visibility: hidden;
+  /*  smooth transitioning  */
+  transform: translateY(-1em);
+  transition: transform ease 0.2s;
+}
+
+/* toggle main dropdown */
+
+input[type="checkbox"]:checked ~ nav > ul {
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.dropdown {
+  padding: 2px 1.5rem;
+  height: 0;
+  overflow: hidden;
+  transition: height ease 0.2s;
+}
+
+li:focus-within .dropdown {
+  height: 135px;
+}
+
+.arrow {
+  width: 0.5em;
+  height: 0.5em;
+  display: inline-block;
+  vertical-align: middle;
+  border-left: 0.15em solid currentColor;
+  border-bottom: 0.15em solid currentColor;
+  transform: rotate(-45deg);
+  margin-left: 0.38em;
+  margin-top: -0.25em;
+  transition: transform 100ms ease-in-out;
+}
+
+li:focus-within > button > .arrow {
+  transform: rotate(-225deg);
+  margin-top: 4px;
+}
+
+/* MEDIA QUERIES  */
+  
+  .header-content {
+    display: flex;
+  }
+  
+  .menus {
+    position: static;
+    visibility: visible;
+    background: #fff;
+    display: flex;
+    transform: initial;
+  }
+  
+  label, input[type="checkbox"] {
+    display: none;
+  }
+  
+  ul li {
+    position: relative;
+    font-size: 14px;
+  }
+  
+  ul li a:hover,
+  ul li button:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .dropdown {
+    position: absolute;
+    right: 0;
+    left: auto;
+    box-shadow: 0 10px 15px -3px rgba(46, 41, 51, 0.08),
+    0 4px 6px -2px rgba(71, 63, 79, 0.16);
+    z-index: 99;
+    min-width: 10rem;
+    padding: 0;
+    background-color: #fff;
+    border-radius: 0 0 0.5rem 0.5rem; 
+  }
+  
+  ul li:hover .dropdown {
+    height: 135px;
+  }
+  
+  ul li:hover > button > .arrow {
+    transform: rotate(-225deg);
+    margin-top: 4px;
+  }
+.page {
+        display: none;
+      }
+.page.active {
+        display: block;
+      }
+</style>
+
+<header>
+  <div class="header-content">
+    
+    <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/avatars/leaf-green.png" width="40px">
+    
+    <input type="checkbox" id="hamburger" aria-label="menu button">
+    <label for="hamburger"><span></span></label>
+    
+    <nav aria-label="main navigation">
+      <ul class="menus">
+        
+            <li><a class="link"href="#home">Home</a></li> 
+        
+                <li>
+          <button
+          >
+            Services<span class="arrow"></span>   
+          </button>
+          <ul class="dropdown">
+            <li><a class="link"href="#webdesign">Web design</a></li> 
+            <li><a class="link"href="#webdev">Web dev</a></li>
+            <li><a class="link"href="#web">Web</a></li>
+          </ul>
+        </li>
+            <li><a class="link"href="#about">About</a></li> 
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+<b id="orness"></b>
+<b id="shadow" style="font-size:26px">`</b>
+<br>
+<br>
+<br>
+<p id="home" class="page">
+    Hello I am 555555 asldfla;ksdjf;lkajsd fklajsdf;lkjas;dlkfj a;lkdjf;aklsjd f;lkajsd f;lkajs df;lkjas df;lkajsdf;lkja sdf;lkja sdf;askldf asdklfj; 
+</p>
+<p id="webdesign"class="page">
+    Hello I am 444444sldfla;ksdjf;lkajsd fklajsdf;lkjas;dlkfj a;lkdjf;aklsjd f;lkajsd f;lkajs df;lkjas df;lkajsdf;lkja sdf;lkja sdf;askldf asdklfj; 
+</p>
+<p id="webdev"class="page">
+    Hello I am 333333sldfla;ksdjf;lkajsd fklajsdf;lkjas;dlkfj a;lkdjf;aklsjd f;lkajsd f;lkajs df;lkjas df;lkajsdf;lkja sdf;lkja sdf;askldf asdklfj; 
+</p>
+<p id="web"class="page">
+    Hello I am 22sldfla;ksdjf;lkajsd fklajsdf;lkjas;dlkfj a;lkdjf;aklsjd f;lkajsd f;lkajs df;lkjas df;lkajsdf;lkja sdf;lkja sdf;askldf asdklfj; 
+</p>
+<p id="about"class="page">
+    Hello I am 1111sldfla;ksdjf;lkajsd fklajsdf;lkjas;dlkfj a;lkdjf;aklsjd f;lkajsd f;lkajs df;lkjas df;lkajsdf;lkja sdf;lkja sdf;askldf asdklfj; 
+</p>
+<script>
+      // handle nav clicks to show the right page
+      var navLinks = document.querySelectorAll('.link');
+      var pages = document.querySelectorAll('.page');
+      for (var i = 0; i < navLinks.length; i++) {
+        navLinks[i].addEventListener('click', function(e) {
+          e.preventDefault();
+          var href = this.getAttribute('href');
+          for (var j = 0; j < pages.length; j++) {
+            pages[j].classList.remove('active');
+          }
+          document.querySelector(href).classList.add('active');
+        });
+      }
+      // show the home page by default
+      document.querySelector('#home').classList.add('active');
+</script>
 </body>
 </html>
