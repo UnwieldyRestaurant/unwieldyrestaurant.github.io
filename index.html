@@ -975,9 +975,17 @@ If you can you can see them here simpson slipper number one slipper number two i
       }
       // show the home page by default
       document.querySelector('#home').classList.add('active');
-      // update the URL with the current page's ID
-
-
+      // check for a saved page ID in the URL and show that page
+      const hash = window.location.hash;
+      if (hash) {
+        const page = document.querySelector(hash);
+        if (page) {
+          for (let i = 0; i < pages.length; i++) {
+            pages[i].classList.remove('active');
+          }
+          page.classList.add('active');
+        }
+      }
 </script>
 </body>
 </html>
