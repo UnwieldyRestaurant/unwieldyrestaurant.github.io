@@ -1,0 +1,474 @@
+0:01
+on this channel we're no stranger to old
+0:04
+servers from the streams i've tried on
+0:06
+escape restart to the mini series on
+0:08
+minecraft online which i promise i'll
+0:10
+probably update in the future it's been
+0:13
+a tradition for over a year now to check
+0:15
+in on some of the oldest servers still
+0:16
+around to preserve their history to the
+0:18
+best of our abilities now throughout my
+0:21
+time making videos about the oldest
+0:23
+servers i've seen an argument come up
+0:25
+again and again most people have
+0:27
+narrowed it down to just two being
+0:29
+nerd.new and minecraft online nerd.new
+0:33
+launched way back in june 2009 but is
+0:36
+constantly reset and shut down over the
+0:38
+last 12 years minecraft online on the
+0:41
+other hand launched about a year later
+0:43
+when survival multiplayer was released
+0:45
+but has been running the same map
+0:47
+non-stop for over a decade players argue
+0:50
+back and forth about whether their
+0:51
+favorite server truly holds the claim to
+0:53
+being the oldest server around but what
+0:56
+if i told you there was a third nearly
+0:58
+unknown server in the competition a
+1:01
+survival server that launched the same
+1:03
+day as minecraft online but running a
+1:05
+world that started months earlier in
+1:08
+this episode of minecraft uncovered
+1:10
+we're going to be exploring the story of
+1:12
+novilen an ancient forgotten minecraft
+1:15
+server that just might be considered the
+1:18
+oldest around
+1:21
+before we get into anything i have to
+1:23
+give a few important shout outs firstly
+1:26
+to for unto christ a moderator of
+1:28
+minecraft online that let me know about
+1:31
+the server several days ago i also want
+1:33
+to thank dograph i hope i'm pronouncing
+1:35
+that right a moderator of novolen for
+1:37
+inviting my friend in the first place
+1:39
+and finally i want to thank saplo
+1:41
+another smaller youtuber that recently
+1:43
+brought some attention to the server and
+1:45
+really got the ball rolling honestly
+1:47
+prior to saplow's video novolin was
+1:49
+virtually unknown for most of the day it
+1:52
+was completely empty and the server
+1:54
+would peak at a player count of five but
+1:57
+today because of his contributions to
+1:59
+the community the server is averaging
+2:01
+around twice that definitely check him
+2:03
+out if you're interested in anything
+2:05
+regarding novolin he actually just
+2:07
+posted another video interviewing the
+2:08
+owner of the server but speaking of
+2:10
+novolin what actually is it how did it
+2:13
+begin how has it evolved and most
+2:16
+importantly how haven't we heard of it
+2:18
+well there's certainly a bit of a story
+2:21
+let's take a trip down memory lane
+2:23
+august 3rd 2010 minecraft
+2:26
+1.0.15 had just released the newest
+2:29
+iteration of survival mode build 15
+2:32
+wasn't a huge update to the game mainly
+2:35
+just bringing bug fixes crafting changes
+2:37
+you know small things but among the
+2:40
+small things was this a conspicuous ip
+2:43
+address field on the main screen of the
+2:45
+game now by this point in the game's
+2:48
+development multiplayer wasn't unheard
+2:50
+of there had been unofficial creative
+2:52
+tests in minecraft classic since may of
+2:54
+2009 and notch had even opened the
+2:57
+server for survival testing over the
+2:59
+last few weeks but never before did it
+3:01
+seem like minecraft was close to
+3:03
+officially supporting user run
+3:05
+multiplayer the only question now was
+3:08
+when there wasn't any sort of server
+3:11
+software or tutorial on how to get a
+3:13
+server up and running all that we could
+3:15
+see was a text field that was so far
+3:17
+pretty useless
+3:19
+but the minecraft community wouldn't
+3:21
+have to wait much longer on august 4th
+3:23
+of 2010 the one-year anniversary of the
+3:26
+first survival test survival multiplayer
+3:29
+officially released to the public and
+3:31
+hundreds of players rushed to set up
+3:33
+their very own server to share with
+3:35
+friends or even open to the public among
+3:37
+these were some of the biggest names in
+3:39
+the history of minecraft multiplayer
+3:42
+names like minecraft online which is
+3:44
+generally considered the oldest
+3:45
+minecraft server and crazy fool's uk a
+3:49
+lesser known server that had risen to
+3:50
+the top back in the day but they weren't
+3:53
+the only ones in fact even on the crazy
+3:56
+fools uk website you can catch a glimpse
+3:58
+of the minecraft multiplayer scene on
+4:00
+day one servers like aunt jemima's home
+4:03
+style survival and s p just for screwing
+4:06
+around a partial anarchy server called
+4:08
+nefanya and so on today these servers
+4:11
+have long since been forgotten shutting
+4:14
+down over a decade ago in most cases but
+4:17
+among these empty husks was a familiar
+4:19
+name novolin launched at day one of the
+4:23
+multiplayer release novalin grew quickly
+4:25
+as one of the smoothest servers online
+4:27
+at the time and started getting tons of
+4:30
+new players from server lists forum
+4:32
+posts and friends sharing it with each
+4:34
+other but for a while nothing really set
+4:36
+novalin apart that was until august 28th
+4:40
+with the release of runecraft the
+4:42
+longest running minecraft plugin which
+4:44
+is still being updated to this day
+4:46
+runecraft adds runic magic to the game
+4:49
+allowing players to teleport across the
+4:51
+map lift massive islands out of the
+4:53
+ocean clone their creations build nearly
+4:56
+invincible sets of gear and much much
+4:59
+more back in 2010 the technology was
+5:02
+pretty primitive as you can imagine but
+5:04
+you have to understand that the
+5:06
+expectations were low nothing like this
+5:08
+had ever been done before
+5:10
+in 2010 your idea of a plugin would be a
+5:13
+few new commands for banning players or
+5:15
+setting homes you could respawn at not
+5:17
+summoning an acid storm over your worst
+5:19
+enemies a project like runecraft was
+5:22
+practically unheard of and it turned
+5:24
+novolin from a basic survival into an
+5:27
+active war zone it was chaos with
+5:30
+players running around at mach speed in
+5:32
+the hopes of finding weak new players to
+5:34
+savagely murder and pathetic dirt huts
+5:36
+they could destroy but while i guarantee
+5:39
+it was pretty crazy in these early days
+5:41
+today that history has disappeared aside
+5:44
+from a few posts on the recently
+5:46
+resurrected forum the disorder of early
+5:48
+novolin has been lost to time and after
+5:51
+a few months after newer servers and
+5:53
+wilder game modes began to release
+5:55
+novolin's player count slowly dropped
+5:58
+lower and lower was this going to be the
+6:01
+end
+6:03
+well of course not i mean come on i'm
+6:06
+playing on the server right now it can't
+6:07
+be minecraft's oda server if it doesn't
+6:09
+exist anymore but how did it survive
+6:13
+well to be honest luck novolin had the
+6:16
+perfect combination of luck and
+6:18
+nostalgia to keep a small
+6:20
+loyal player base over the years and
+6:22
+when i say small i mean small one or two
+6:25
+players on at a time but it was enough
+6:28
+to keep this piece of minecraft history
+6:30
+alive throughout the years and even
+6:32
+today as we enter 2022 there are still
+6:35
+players around from the start of the
+6:37
+novolin timeline players like dograph
+6:39
+and doozy have stuck around for the last
+6:42
+decade several of them even becoming
+6:44
+moderators of the server and aside from
+6:46
+the owner's good intentions they're
+6:48
+really all that's kept novolin alive to
+6:50
+this day from 2011 through november of
+6:53
+2021 that's all they've had just a small
+6:56
+group of maybe a hundred or so players
+6:58
+that would actively play the server plus
+7:00
+the rare visitor from some old minecraft
+7:02
+forum post a youtube video from 2011 or
+7:05
+something else of the sort but come late
+7:08
+november of this year that would all
+7:10
+start to change
+7:11
+and this this is where saplo makes an
+7:14
+appearance like myself saplow was no
+7:17
+stranger to documenting minecraft
+7:19
+history interviewing players of sim pvp
+7:22
+anarchy making his own alpha server and
+7:24
+even uploading a few minecraft online
+7:26
+videos over the years something was
+7:28
+different this time around though
+7:30
+something was special this wasn't just
+7:32
+some random server with a reputation for
+7:34
+being old this was a well-kept secret he
+7:37
+had hidden away for over a year and on
+7:40
+november 27th he revealed it in his
+7:42
+first video since july
+7:44
+minecraft's oldest unknown server now
+7:47
+saplo is a smaller youtuber but this
+7:50
+video did honestly pretty well he got
+7:53
+500 views in under a week numbers i
+7:55
+could have only dreamed of having when
+7:56
+my channel was the size of his
+7:58
+but more importantly a few important
+8:01
+figures took notice and began to spread
+8:03
+the word moderators of minecraft online
+8:06
+popular 2b2t youtubers like dig mc and
+8:09
+fast vincent and even just regulars of
+8:11
+the minecraft history community began to
+8:13
+share it with friends post about it on
+8:15
+their discords and invite anyone they
+8:17
+could to populate this once wasteland of
+8:20
+a server and it worked right now the
+8:22
+server's healthier than it's been in
+8:24
+years and we just might be able to bring
+8:27
+the story of novolin to the masses so
+8:30
+here i am doing my part 11 years after
+8:33
+the launch of the server to give the
+8:34
+minecraft community a glimpse into the
+8:37
+mystery that is novolin
+8:40
+thanks for watching the video and i
+8:42
+really hope you all enjoyed i've been
+8:43
+wanting to make another old server video
+8:45
+for quite a while now so i was super
+8:47
+happy to get the news from foreign to
+8:48
+christ shout out to you of course and
+8:50
+dograph since you're basically the
+8:52
+reason that i'm here and of course shout
+8:54
+out to saplo as well since he's the
+8:56
+reason everybody else is here i'll leave
+8:57
+a link to his channel in the description
+8:59
+he has two videos on the server already
+9:01
+and another one is premiering soon but
+9:03
+that's about all i've got to say so yeah
+9:05
+thanks again and have a good one guys
+9:07
+peace
+9:08
+[Music]
+9:28
+you
